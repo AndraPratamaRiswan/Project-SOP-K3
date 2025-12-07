@@ -158,7 +158,7 @@ a {
 }
 
 a:hover {
-  color: black;
+  color: rgb(246, 178, 178);
   text-decoration: underline;
 }
 
@@ -197,6 +197,26 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+}
+.card-contents {
+  height: 200px; /* tinggi card */
+  background-size: 100%; /* zoom in 20% */
+  background-position: center; /* posisikan tengah gambar */
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.case-studies-card-img {
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+.card-contents:hover {
+  background-size: 75%; /* zoom in lebih saat hover */
+  transition: background-size 0.3s ease;
 }
 
 svg {
@@ -422,7 +442,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(72, 27, 27, 0.1);
 }
 
 small,
@@ -575,6 +595,7 @@ pre code {
     max-width: 1140px;
   }
 }
+
 
 .container-fluid {
   width: 100%;
@@ -10408,4 +10429,40 @@ footer a:hover {
 .sop-section .card:hover {
   transform: translateY(-3px);
   box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+/* =============================
+   TEKS JUSTIFY KHUSUS SECTION LAIN
+============================= */
+.digital-marketing-service p,
+.digital-marketing-service .col-lg-7 {
+    text-align: justify !important;
+    text-justify: inter-word;
+}
+
+/* =============================
+   CENTER HELPER
+============================= */
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.img-digital img {
+  display: block;
+  margin: 0; /* hapus jarak */
+}
+.img-customer {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;   /* supaya tidak gepeng */
+  border-radius: 50%;  /* buat bulat */
+}
+.navbar-brand-wrapper img {
+  width: 120px;   /* ubah sesuai ukuran yang kamu mau */
+  height: auto;   /* supaya tidak gepeng */
+}
+.footer-logo {
+  width: 120px;   /* samakan dengan ukuran logo navbar */
+  height: auto;   /* biar tidak gepeng */
 }
