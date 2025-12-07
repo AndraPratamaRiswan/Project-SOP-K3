@@ -10311,3 +10311,101 @@ footer a:hover {
   opacity: 1 !important;
   visibility: visible !important;
 }
+
+
+/* ===============================
+   CARD FIX FINAL - GUARANTEED
+================================ */
+
+/* Pastikan row behave normal */
+.row.grid-margin {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* CARD GRID agar center */
+.card-grid {
+    justify-content: center;
+}
+
+/* Card tidak lonjong */
+.stretch-card {
+    display: flex;
+    justify-content: center;
+}
+
+/* Card FOH, BOH, SOP */
+.card.color-cards {
+    max-width: 330px;
+    width: 100%;
+    margin: 0 auto; 
+}
+
+/* Rata kiri kanan isi dalam card */
+.card-details,
+.card-details *,
+.card-desc,
+.card-desc * {
+    text-align: justify !important;
+    text-justify: inter-word;
+}
+
+/* Judul card */
+.card-details h6,
+.card-title {
+    text-align: center !important;
+    font-weight: 700 !important;
+}
+/* =============================
+   FIX BOOTSTRAP ROW AGAR TIDAK GANGGU
+============================= */
+.row.align-items-stretch.g-4 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    display: block !important;
+}
+
+/* =============================
+   GRID SOP – AUTO CENTER
+============================= */
+.sop-section .sop-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.sop-section .grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+}
+
+.sop-section .card {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+}
+
+.sop-section .card-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sop-section .card-desc {
+  font-size: 14px;
+  color: #555;
+  flex: 1;
+}
+
+.sop-section .card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
