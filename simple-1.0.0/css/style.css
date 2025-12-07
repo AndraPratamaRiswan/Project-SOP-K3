@@ -10466,3 +10466,221 @@ footer a:hover {
   width: 120px;   /* samakan dengan ukuran logo navbar */
   height: auto;   /* biar tidak gepeng */
 }
+
+/* ========================================= */
+/* HERO/BANNER SECTION          */
+/* ========================================= */
+
+#hero-banner {
+    width: 100%;
+    /* Atur tinggi minimum, misal 80% dari tinggi layar (viewport) */
+    min-height: 80vh; 
+    
+    /* Ganti path/lokasi gambar latar belakang Anda di sini */
+    background: url('../images/bannerHome.jpg') center center no-repeat; 
+    background-size: cover; /* Pastikan gambar menutupi seluruh area */
+    position: relative;
+    z-index: 1; /* Pastikan berada di lapisan terdepan */
+}
+
+/* Overlay (Opsional: Lapisan gelap agar teks putih lebih mudah dibaca) */
+#hero-banner::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5); /* Hitam dengan opasitas 50% */
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+/* Atur konten di dalam container agar berada di atas overlay */
+#hero-banner .container {
+    z-index: 3; 
+}
+
+/* Style Teks */
+#hero-banner h1 {
+    font-size: 3.5rem; /* Ukuran besar untuk desktop */
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#hero-banner h2 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+    font-weight: 400;
+    color: #f0f0f0;
+}
+
+/* Media Query untuk Responsivitas (Tampilan Mobile) */
+@media (max-width: 768px) {
+    #hero-banner {
+        min-height: 60vh;
+    }
+    #hero-banner h1 {
+        font-size: 2.5rem;
+    }
+    #hero-banner h2 {
+        font-size: 1.2rem;
+    }
+}
+
+/* ========================================= */
+/* SOP BANNER BASE STYLES (Untuk 16 Section) */
+/* ========================================= */
+
+.sop-banner-base {
+    width: 100%;
+    /* Atur tinggi (misalnya 50% dari viewport height, lebih pendek dari home) */
+    min-height: 50vh; 
+    position: relative;
+    z-index: 1;
+    display: flex; /* Memastikan konten di tengah */
+    align-items: center; 
+    justify-content: center;
+}
+
+/* Overlay (Lapisan gelap untuk kontras teks) */
+.sop-banner-base::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.65); /* Opasitas 65% */
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+/* Style Teks */
+.sop-banner-base .container {
+    z-index: 3; 
+    padding-top: 56px; /* Kompensasi tinggi navbar fixed (jika ada) */
+}
+
+.sop-banner-base h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.sop-banner-base h2 {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    font-weight: 400;
+    color: #f0f0f0;
+}
+
+/* Opsi: Responsivitas untuk Mobile */
+@media (max-width: 768px) {
+    .sop-banner-base {
+        min-height: 40vh;
+    }
+    .sop-banner-base h1 {
+        font-size: 2rem;
+    }
+}
+
+/* ========================================= */
+/* INDIVIDUAL BACKGROUNDS (16 Poin SOP)    */
+/* ========================================= */
+
+/* 1. Front Of House */
+.banner-bg-foh {
+    background: url('../images/FOH.jpg') center center no-repeat; 
+    background-size: cover;
+}
+
+/* 2. Back Of House */
+.banner-bg-boh {
+    background: url('../images/BOH.jpg') center center no-repeat; 
+    background-size: cover;
+}
+
+/* 3. Storage */
+.banner-bg-storage {
+    background: url('../images/STORAGEBanner.jpg') center center no-repeat; 
+    background-size: cover;
+}
+
+/* 4. Kebersihan */
+.banner-bg-kebersihan {
+    background: url('../images/KEBERSIHANBanner.jpg') center center no-repeat; 
+    background-size: cover;
+}
+
+/* 5. Barista / Minuman */
+.banner-bg-barista {
+    background: url('../images/BARISTABanner.jpg') center center no-repeat; 
+    background-size: cover;
+}
+
+/* 6. Delivery & Take Away */
+.banner-bg-delivery {
+    background: url('../images/DELIVERYBanner.jpg') center center no-repeat; 
+    background-size: cover;
+}
+
+/* 7. Karyawan */
+.banner-bg-karyawan {
+    background: url('../images/KARYAWANBanner.jpg') center center no-repeat; 
+    background-size: cover;
+}
+
+/* 8. Opening & Closing */
+.banner-bg-openclose {
+    background: url('../images/OPENCLOSEBanner.jpg') center center no-repeat; 
+    background-size: cover;
+}
+
+/* 9. Penerimaan Barang */
+.banner-bg-penerimaan {
+    background: url('../images/PENERIMAANBARANGBanner.jpg') center center no-repeat; 
+    background-size: cover;
+}
+
+/* 10. Keselamatan & Keamanan */
+.banner-bg-safety {
+    background: url('../images/SAFETYBanner.jpg') center center no-repeat; 
+    background-size: cover;
+}
+
+/* 11. Penanganan Komplain Tamu */
+.banner-bg-komplain {
+    background: url('../images/COMPLAINTSBanner.jpg') center center no-repeat; 
+    background-size: cover;
+}
+
+/* 12. Stok Opname */
+.banner-bg-stok {
+    background: url('../images/OPNAMEBanner.jpg') center center no-repeat; 
+    background-size: cover;
+}
+
+/* 13. Handling Makanan */
+.banner-bg-handling {
+    background: url('../images/HANDLINGBanner.jpg') center center no-repeat; 
+    background-size: cover;
+}
+
+/* 14. Kamar Mandi */
+.banner-bg-toilet {
+    background: url('../images/TOILETBanner.jpg') center center no-repeat; 
+    background-size: cover;
+}
+
+/* 15. Peralatan */
+.banner-bg-peralatan {
+    background: url('../images/PERALATANBanner.jpg') center center no-repeat; 
+    background-size: cover;
+}
+
+/* 16. Kebersihan Mendalam */
+.banner-bg-deepclean {
+    background: url('../images/DEEPCLEANBanner.jpg') center center no-repeat; 
+    background-size: cover;
+}

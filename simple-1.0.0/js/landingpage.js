@@ -38,7 +38,7 @@ $('.owl-carousel').owlCarousel({
 
 // SCROLLSPY
 $(document).ready(function() {
-  $(".nav-link").click(function() {
+  $(".nav-link, a.btn[href^='#']").click(function() {
       var t = $(this).attr("href");
       $("html, body").animate({
           scrollTop: $(t).offset().top - 75
