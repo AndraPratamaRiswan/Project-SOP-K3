@@ -10597,25 +10597,25 @@ footer a:hover {
 
 /* 2. Back Of House */
 .banner-bg-boh {
-    background: url('../images/BOH.jpg') center center no-repeat; 
+    background: url('../images/bohi.png') center center no-repeat; 
     background-size: cover;
 }
 
 /* 3. Storage */
 .banner-bg-storage {
-    background: url('../images/STORAGEBanner.jpg') center center no-repeat; 
+    background: url('../images/stokmknn.png') center center no-repeat; 
     background-size: cover;
 }
 
 /* 4. Kebersihan */
 .banner-bg-kebersihan {
-    background: url('../images/KEBERSIHANBanner.jpg') center center no-repeat; 
+    background: url('../images/waduh.jpeg') center center no-repeat; 
     background-size: cover;
 }
 
 /* 5. Barista / Minuman */
 .banner-bg-barista {
-    background: url('../images/BARISTABanner.jpg') center center no-repeat; 
+    background: url('../images/brsta.jpg') center center no-repeat; 
     background-size: cover;
 }
 
@@ -10633,54 +10633,54 @@ footer a:hover {
 
 /* 8. Opening & Closing */
 .banner-bg-openclose {
-    background: url('../images/OPENCLOSEBanner.jpg') center center no-repeat; 
+    background: url('../images/openclose.jpg') center center no-repeat; 
     background-size: cover;
 }
 
 /* 9. Penerimaan Barang */
 .banner-bg-penerimaan {
-    background: url('../images/PENERIMAANBARANGBanner.jpg') center center no-repeat; 
+    background: url('../images/pkt.png') center center no-repeat; 
     background-size: cover;
 }
 
 /* 10. Keselamatan & Keamanan */
 .banner-bg-safety {
-    background: url('../images/SAFETYBanner.jpg') center center no-repeat; 
+    background: url('../images/k31.jpeg') center center no-repeat; 
     background-size: cover;
 }
 
 /* 11. Penanganan Komplain Tamu */
 .banner-bg-komplain {
-    background: url('../images/COMPLAINTSBanner.jpg') center center no-repeat; 
+    background: url('../images/kompilin.png') center center no-repeat; 
     background-size: cover;
 }
 
 /* 12. Stok Opname */
 .banner-bg-stok {
-    background: url('../images/OPNAMEBanner.jpg') center center no-repeat; 
+    background: url('../images/stokop.jpg') center center no-repeat; 
     background-size: cover;
 }
 
 /* 13. Handling Makanan */
 .banner-bg-handling {
-    background: url('../images/HANDLINGBanner.jpg') center center no-repeat; 
+    background: url('../images/hand.jpg') center center no-repeat; 
     background-size: cover;
 }
 
 /* 14. Kamar Mandi */
 .banner-bg-toilet {
-    background: url('../images/TOILETBanner.jpg') center center no-repeat; 
+    background: url('../images/kmrmndi.jpg') center center no-repeat; 
     background-size: cover;
 }
 
 /* 15. Peralatan */
 .banner-bg-peralatan {
-    background: url('../images/PERALATANBanner.jpg') center center no-repeat; 
+    background: url('../images/alatmadang.jpeg') center center no-repeat; 
     background-size: cover;
 }
 
 /* 16. Kebersihan Mendalam */
 .banner-bg-deepclean {
-    background: url('../images/DEEPCLEANBanner.jpg') center center no-repeat; 
+    background: url('../images/resikresik.jpg') center center no-repeat; 
     background-size: cover;
 }
